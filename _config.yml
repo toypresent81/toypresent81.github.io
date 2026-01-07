@@ -28,7 +28,7 @@ linkedin_username: jekyll
 # About Section
 # -------------------------
 about_profile_image: "images/profile.jpg"
-about_content: 
+about_content: |
   13년 차 iOS 개발자로서 다양한 프로젝트를 통해
   실무 중심의 iOS 앱 개발 경험을 쌓아왔습니다.
 
