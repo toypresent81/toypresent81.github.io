@@ -54,6 +54,8 @@ content:
         link: (구 네오위즈파트너스 / 네오플라이)
         sub_title: iOS Developer · Blockchain / SDK
         caption: 2019.01 – 현재
+        quote: >
+          Short institution or course description (optional)
         description: |
           - 클라이언트팀 소속으로 블록체인 기반 iOS 앱 개발 및 유지보수
           - nBlocks, nBlocks Hunt, Helpring, Neopin, Keya iOS 앱 개발 및 앱스토어 출시
