@@ -45,7 +45,7 @@ about_content: |
   **Main Focus:** iOS · Blockchain · Web3 · SDK · Media Platform
 
 # -------------------------
-# Sections
+# Experience Sections
 # -------------------------
 content:
   - title: Experience
@@ -98,25 +98,29 @@ content:
           
           **Keywords:** Objective-C · VLC · FFmpeg · AVPlayer
 
+# -------------------------
+# Projects Sections
+# -------------------------
   - title: Projects
     layout: list
     content:
       - layout: left
         title: NEOPIN
         sub_title: CeDeFi Web3 Financial Platform (iOS)
-        caption: Long-term Core Project
+        caption: Web3 / Financial Service
         quote: >
-          Non-custodial Web3 금융 앱 · 가장 오래 참여한 핵심 프로젝트
+          Non-custodial 기반 CeDeFi Web3 금융 플랫폼
         description: |
           - CeFi와 DeFi를 결합한 CeDeFi 구조의 iOS Web3 금융 앱 개발 및 운영
           - Non-custodial 지갑 아키텍처 구현 및 Private Key 로컬 보안 관리
           - 스테이킹(Staking), 스왑(Swap), 락업 상품 등 DeFi 금융 기능 연동
           - 블록체인 트랜잭션 생성·서명·전송 로직 구현
           - 멀티체인 환경에서 토큰 관리, 잔액 조회, 트랜잭션 상태 처리
-          - KYC/AML 프로세스 및 글로벌 서비스(i18n) 대응
+          - KYC/AML 프로세스 연동 및 글로벌 서비스(i18n) 대응
           - 금융 서비스 특성을 고려한 오류 복구 UX 및 앱 안정성 개선
+          - WalletConnect 연동 SDK 개발로 외부 서비스 확장성 강화
 
-          **Highlight:** 가장 오래 참여한 핵심 프로젝트  
+          **Focus:** Web3 금융 · Non-custodial Wallet · 보안 중심 아키텍처  
           **Keywords:** Swift · Web3 · Blockchain · Wallet · DeFi · Security
 
       - layout: left
@@ -131,7 +135,6 @@ content:
           - Keychain, Secure Enclave 활용한 로컬 보안 저장 구조 설계
           - Ethereum, EOS, Klaytn 멀티체인 주소 생성 및 트랜잭션 처리
           - ERC-20, KCT 토큰 전송 및 가스비 계산 UI 구현
-          - WalletConnect 연동 SDK 개발로 외부 서비스 확장성 강화
           - 악성 주소 탐지를 위한 보안 서비스(Uppsala Security) 연동
 
           **Highlight:** 무사고 지갑 서비스 운영  
