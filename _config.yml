@@ -50,7 +50,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: (주)네오위즈파트너스
+        title: 에이치랩코리아 (구 네오위즈파트너스 / 네오플라이)
         sub_title: iOS Developer / Blockchain Developer / SDK Developer / Frontend Developer
         caption: 2019.01 – 현재
         description: |
