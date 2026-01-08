@@ -49,15 +49,44 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: left
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+      - layout: right
+        title: (주)네오위즈파트너스
+        sub_title: iOS Developer
+        caption: 2019.01 – 현재
+        description: |
+          - 클라이언트팀 소속으로 블록체인 기반 iOS 앱 개발 및 유지보수
+          - nBlocks, nBlocks Hunt, Neopin, Keya iOS 앱 개발 및 앱스토어 출시
+          - App Store Featured 선정 경험을 통해 서비스 완성도 및 사용자 경험 검증
+          - WalletConnect 연동 SDK 개발로 외부 서비스 연동 및 확장성 강화
+          - 보안 민감 환경에서 무사고 지갑 서비스 운영을 통해 안정성 확보
+          - 신규 기술 도입 및 구조 개선을 통해 장기 유지보수가 가능한 코드베이스 구축
+          
+          **Keywords:** Swift · Blockchain · Web3 · HDWallet · WalletConnect · SDK · React · Tailwind
+
+      - layout: right
+        title: 부동산114
+        sub_title: iOS Developer / Unity Developer
+        caption: 2014.07 – 2018.11
+        description: |
+          - IT개발팀 소속으로 방콜, 부동산114, 중개지원114, 영업지원114, 헬로리치 iOS 앱 개발
+          - Unity 기반 부동산GO iOS / Android 앱 개발 참여
+          - 사용자 흐름 개선 및 기능 고도화를 통해 부동산 앱 사용성 1위 달성
+          - 서비스 안정화 및 기여도를 인정받아 우수사원 표창 수상
+          - 다수의 사내 서비스 유지보수를 통해 안정성과 확장성을 고려한 개발 역량 강화
+          
+          **Keywords:** Swift · Unity · AR
+
+      - layout: right
+        title: 판도라TV
+        sub_title: iOS Developer
+        caption: 2012.07 – 2014.07
+        description: |
+          - 판도라TV R&D 조직에서 판도라TV iOS 앱 및 KCTV 리모컨 앱 개발
+          - 전략사업팀 소속으로 JellyPod iOS 앱 개발
+          - NPP 조직에서 1 Minute iOS 앱, KMP 조직에서 KMPlayer iOS 앱 개발
+          - App Store 무료 앱 1위 달성 경험을 통해 대규모 사용자 트래픽 대응 및 안정성 확보
+          
+          **Keywords:** Swift · VLC · FFmpeg · AVPlayer
   - title: Education
     layout: list
     content:
