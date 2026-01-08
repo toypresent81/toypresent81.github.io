@@ -49,7 +49,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: (주)네오위즈파트너스
         sub_title: iOS Developer
         caption: 2019.01 – 현재
@@ -63,7 +63,7 @@ content:
           
           **Keywords:** Swift · Blockchain · Web3 · HDWallet · WalletConnect · SDK · React · Tailwind
 
-      - layout: right
+      - layout: left
         title: 부동산114
         sub_title: iOS Developer / Unity Developer
         caption: 2014.07 – 2018.11
@@ -76,7 +76,7 @@ content:
           
           **Keywords:** Swift · Unity · AR
 
-      - layout: right
+      - layout: left
         title: 판도라TV
         sub_title: iOS Developer
         caption: 2012.07 – 2014.07
@@ -87,6 +87,7 @@ content:
           - App Store 무료 앱 1위 달성 경험을 통해 대규모 사용자 트래픽 대응 및 안정성 확보
           
           **Keywords:** Swift · VLC · FFmpeg · AVPlayer
+          
   - title: Education
     layout: list
     content:
