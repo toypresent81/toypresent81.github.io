@@ -51,7 +51,7 @@ content:
     content:
       - layout: left
         title: 에이치랩코리아
-        link_text: (구 네오위즈파트너스 / 네오플라이)
+        link: (구 네오위즈파트너스 / 네오플라이)
         sub_title: iOS Developer · Blockchain / SDK
         caption: 2019.01 – 현재
         description: |
