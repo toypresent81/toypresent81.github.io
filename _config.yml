@@ -50,12 +50,12 @@ content:
     layout: list
     content:
       - layout: left
-        title: |
-  에이치랩코리아
-  (구 네오위즈파트너스 / 네오플라이)
+        title: 에이치랩코리아
         sub_title: iOS Developer · Blockchain / SDK
         caption: 2019.01 – 현재
         description: |
+        *(구 네오위즈파트너스 / 네오플라이)*
+        
           - 클라이언트팀 소속으로 블록체인 기반 iOS 앱 개발 및 유지보수
           - nBlocks, nBlocks Hunt, Helpring, Neopin, Keya iOS 앱 개발 및 앱스토어 출시
           - App Store Featured 선정 경험을 통해 서비스 완성도 및 사용자 경험 검증
