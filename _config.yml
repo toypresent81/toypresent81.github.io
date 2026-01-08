@@ -186,6 +186,28 @@ content:
           **Highlight:** App Store 무료 앱 1위  
           **Keywords:** Objective-C · VLC · FFmpeg · AVPlayer
 
+  - title: Additional Projects
+    layout: text
+    content: |
+      주요 대표 프로젝트 외에도 다양한 도메인의 모바일 서비스 개발에 참여하며,
+      플랫폼 특성과 사용자 환경에 맞는 iOS 앱 개발 경험을 쌓아왔습니다.
+
+      - **nBlocks Hunt**  
+        위치 기반 AR 블록체인 게임 서비스  
+        (ARKit · CoreLocation · MapKit · Blockchain · Gamification)
+
+      - **부동산GO**  
+        AR 기반 주변 건물·토지 정보 제공 부동산 서비스  
+        (iOS / Android · Unity · 위치 기반 · AR)
+
+      - **영업지원114 / 중개지원114**  
+        부동산 중개 및 영업 현장을 위한 iOS 업무 지원 플랫폼  
+        (부동산 데이터 · 지도 · 위치 기반 서비스)
+
+      - **1 Minute / JellyPod / PandoraTV**  
+        영상 촬영·편집·재생 및 스트리밍 중심의 미디어 플랫폼  
+        (동영상 처리 · 스트리밍 · 미디어 UX)
+
   - title: Education
     layout: list
     content:
