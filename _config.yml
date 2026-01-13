@@ -32,12 +32,10 @@ about_content: |
   13년 차 iOS 개발자로서 다양한 프로젝트를 통해
   실무 중심의 iOS 앱 개발 경험을 쌓아왔습니다.
 
-  
   혼자 몰입해 무언가를 만들어내는 과정도 좋아하지만,
   개발에 있어서는 팀원들과 함께 기획하고 설계하며
   문제를 해결해 나가는 협업의 가치를 더 높게 생각합니다.
 
-  
   변화하는 iOS 생태계 속에서 새로운 기술을 꾸준히 학습하고,
   단순한 학습에 그치지 않고 실제 프로젝트에 적용해
   팀과 서비스에 기여하는 개발자가 되고자 노력해왔습니다.
@@ -61,9 +59,9 @@ content:
           *(구 네오위즈파트너스 / 네오플라이 — 사명 변경)*
           
           - 클라이언트팀 소속으로 블록체인 기반 iOS 앱 개발 및 유지보수
-          - nBlocks, nBlocks Hunt, Helpring, Neopin, Keya iOS 앱 개발 및 앱스토어 출시
+          - nBlocks, nBlocks Hunt, Helpring, Neopin iOS 앱 개발 및 앱스토어 출시
           - 서비스 완성도와 사용자 경험을 고려한 앱 설계 및 운영
-          - WalletConnect 연동 SDK 개발로 외부 서비스 연동 및 확장성 강화
+          - WalletConnect SDK 개발로 외부 지갑 서비스 연동 및 확장성 강화
           - 보안 민감 환경에서 무사고 지갑 서비스 운영을 통해 안정성 확보
           - 신규 기술 도입 및 구조 개선을 통해 장기 유지보수가 가능한 코드베이스 구축
           
@@ -76,11 +74,10 @@ content:
         quote: >
           부동산 앱 사용성 1위 선정
         description: |
-          - IT개발팀 소속으로 방콜, 부동산114, 중개지원114, 영업지원114, 헬로리치 iOS 앱 개발
-          - Unity 기반 부동산GO iOS / Android 앱 개발 참여
+          - IT개발팀 소속으로 방콜, 부동산114, 중개지원114, 영업지원114, 헬로리치 iOS 앱 개발 및 앱스토어 출시
+          - Unity 기반 부동산GO iOS / Android 앱 개발 및 유지보수
           - 사용자 중심 UI/UX 개선으로 서비스 경쟁력 강화
-          - 서비스 안정화 및 기여도를 인정받아 우수사원 표창 수상
-          - 다수의 사내 서비스 유지보수를 통해 안정성과 확장성을 고려한 개발 역량 강화
+          - 다수의 사내 서비스 유지보수를 통해 서비스 안정화 및 기여도를 인정받아 우수사원 표창 수상
           
           **Keywords:** Swift · Unity · AR
 
@@ -111,17 +108,14 @@ content:
         quote: >
           Non-custodial 기반 CeDeFi Web3 금융 플랫폼
         description: |
-          - CeFi와 DeFi를 결합한 CeDeFi 구조의 iOS Web3 금융 앱 개발 및 운영
-          - Non-custodial 지갑 아키텍처 구현 및 Private Key 로컬 보안 관리
-          - 스테이킹(Staking), 스왑(Swap), 락업 상품 등 DeFi 금융 기능 연동
-          - 블록체인 트랜잭션 생성·서명·전송 로직 구현
-          - 멀티체인 환경에서 토큰 관리, 잔액 조회, 트랜잭션 상태 처리
-          - KYC/AML 프로세스 연동 및 글로벌 서비스(i18n) 대응
-          - 금융 서비스 특성을 고려한 오류 복구 UX 및 앱 안정성 개선
-          - WalletConnect 연동 SDK 개발로 외부 서비스 확장성 강화
+          - CeDeFi 구조의 iOS Web3 지갑 앱 개발 및 운영
+          - 멀티체인(Kaia, Ethereum, Cosmos, Polygon, Tron 등) 환경에서 안전하고 빠른 자산 관리 및 트랜잭션 상태 처리
+          - Keychain을 활용한 니모닉 및 Private Key 보안 관리
+          - Staking, Swap, Lockup, Bridge, NFT 등 다양한 DeFi 상품 및 서비스 연동
+          - WalletConnect 연동 SDK 개발로 외부 서비스 확장성 강화 (P2E)
 
-          **Focus:** Web3 금융 · Non-custodial Wallet · 보안 중심 아키텍처  
-          **Keywords:** Swift · Web3 · Blockchain · Wallet · DeFi · Security
+          **Highlight:** No.1 Kaia Staking, 무사고 지갑 서비스 운영  
+          **Keywords:** Swift · RxSwift · Reactorkit · Web3 · HDWallet · WalletConnect · Solidity
 
       - layout: left
         title: nBlocks Wallet
@@ -131,14 +125,14 @@ content:
           멀티체인 지원 탈중앙 암호화폐 지갑
         description: |
           - HD Wallet 기반 지갑 생성 및 프라이빗 키 관리 로직 구현
-          - Shamir’s Secret Sharing 기반 키 백업/복구 플로우 연동
-          - Keychain, Secure Enclave 활용한 로컬 보안 저장 구조 설계
+          - Shamir’s Secret Sharing 기반 iCloud를 통한 키 백업/복구 플로우 연동
+          - Keychain을 활용한 로컬 보안 저장 구조 설계
           - Ethereum, EOS, Klaytn 멀티체인 주소 생성 및 트랜잭션 처리
-          - ERC-20, KCT 토큰 전송 및 가스비 계산 UI 구현
+          - Staking 상품 연동
           - 악성 주소 탐지를 위한 보안 서비스(Uppsala Security) 연동
 
           **Highlight:** 무사고 지갑 서비스 운영  
-          **Keywords:** Swift · HDWallet · WalletConnect · Security · SDK
+          **Keywords:** Swift · HDWallet · Shamir · Web3 · SDK · InAppPurchase · iCloud
 
       - layout: left
         title: Helpring
@@ -154,7 +148,7 @@ content:
           - 공통 UI 컴포넌트화 및 앱 안정성 개선
 
           **Highlight:** App Store Featured 선정  
-          **Keywords:** Swift · Live Streaming · Payment · UX
+          **Keywords:** Swift · WebSocket · PG연동 · Zoom SDK
 
       - layout: left
         title: 방콜
@@ -169,7 +163,7 @@ content:
           - 사용자 흐름 개선을 통해 부동산 앱 사용성 1위 달성
 
           **Highlight:** 부동산 앱 사용성 1위  
-          **Keywords:** Objective-C · Location · Maps · UX
+          **Keywords:** Objective-C · Google Map
 
       - layout: left
         title: KMPlayer (iOS)
@@ -194,11 +188,11 @@ content:
 
       - **nBlocks Hunt**  
         위치 기반 AR 블록체인 게임 서비스  
-        (ARKit · CoreLocation · MapKit · Blockchain · Gamification)
+        (Unity · SDK · CoreLocation · Blockchain · C# · InApp Purchase)
 
       - **부동산GO**  
         AR 기반 주변 건물·토지 정보 제공 부동산 서비스  
-        (iOS / Android · Unity · 위치 기반 · AR)
+        (iOS / Android · Unity · 위치 기반 · AR · C#)
 
       - **영업지원114 / 중개지원114**  
         부동산 중개 및 영업 현장을 위한 iOS 업무 지원 플랫폼  
@@ -206,7 +200,7 @@ content:
 
       - **1 Minute / JellyPod / PandoraTV**  
         영상 촬영·편집·재생 및 스트리밍 중심의 미디어 플랫폼  
-        (동영상 처리 · 스트리밍 · 미디어 UX)
+        (Live Streming · 동영상 처리 및 다운로드 · InApp Purchase)
 
   - title: Education
     layout: list
