@@ -148,7 +148,7 @@ content:
           - 공통 UI 컴포넌트화 및 앱 안정성 개선
 
           **Highlight:** App Store Featured 선정  
-          **Keywords:** Swift · WebSocket · PG연동 · Zoom SDK · InAppPurchase
+          **Keywords:** Swift · Socket · PG연동 · Zoom SDK · InAppPurchase
 
       - layout: left
         title: 방콜 (iOS)
