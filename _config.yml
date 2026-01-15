@@ -123,15 +123,21 @@ content:
             · 신규 체인 추가 시 iOS 코드 변경 최소화로 유지보수성과 개발 생산성 개선
 
           - 트랜잭션 안정성 개선을 통한 서비스 신뢰도 향상
+          
             · Sign → Send → Confirm 단계 분리 및 재시도 로직 도입
+            
             · 네트워크 오류, 중복 요청, 체인 지연 상황 대응으로 실거래 실패율 및 CS 이슈 유의미하게 감소
 
           - DeFi 서비스 구조 표준화 및 성능 고도화
+          
             · 스테이킹, 스왑, 브릿지, 인덱스 등 DeFi 서비스 공통 인터페이스 및 재사용 모듈 설계
+            
             · 비동기 트랜잭션 상태 관리 최적화로 중복 요청·실패율 감소 및 성공률 향상
 
           - 금융 서비스 수준의 보안 및 인증 플로우 구축
+          
             · Mnemonic, Private Key 등 민감 데이터 접근 최소화 구조 설계
+            
             · 무사고 가상자산 지갑 앱 운영을 통해 보안 신뢰도 확보
 
           **사용 기술:** Swift, Web3, RxSwift, Swift Concurrency, Keychain, Shamir Secret Sharing, WalletConnect, HDWallet, ReactorKit, TDD (XCTest)
