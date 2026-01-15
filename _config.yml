@@ -106,7 +106,7 @@ content:
         sub_title: CeDeFi 기반 Non-Custodial Web3 금융 플랫폼
         caption: Web3 / Blockchain / DeFi
         quote: >
-          무사고 Non-Custodial 지갑 서비스 운영
+          아시아 No.1 Kaia Staking 예치량 달성, 무사고 지갑 서비스 운영
         description: |
           **주요 업무 및 성과**
 
@@ -288,6 +288,33 @@ content:
 
           **사용 기술:** Objective-C, Swift, Google Maps SDK, Marker Cluster, DeepLink
 
+      - title: 중개지원114 (iOS)
+        sub_title: 공인중개사 전용 업무 지원 서비스
+        caption: Hybrid / Business Tool
+        quote: >
+          중개 업무 모바일 전환
+        description: |
+          **주요 업무 및 성과**
+
+          - JavaScript 통신 기반 하이브리드 페이지 이동 모듈 개발
+      
+            · JavaScript ↔ Native 통신 인터페이스 공통화  
+            
+            · 웹 기능 확장 시 iOS 코드 변경 최소화
+
+          - 중개 업무 특화 Custom Calendar 모듈 개발
+      
+            · 계약·상담·잔금 일정 관리에 최적화된 캘린더 UI 구현  
+            
+            · 재사용 가능한 컴포넌트 구조 설계
+
+          - 전자 서명(Signature) 모듈 개발
+      
+            · 터치 기반 서명 입력 UX 및 이미지 처리 로직 구현  
+            
+            · 팩스 전송 프로세스에 최적화된 서명 수집 구조 설계
+
+          **사용 기술:** Swift, MVVM, JavaScript–Native Bridge
 
       - layout: left
         title: KMPlayer (iOS)
