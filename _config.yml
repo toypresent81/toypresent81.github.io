@@ -146,7 +146,7 @@ content:
 
           **사용 기술** 
           
-            Swift, Web3, RxSwift, Swift Concurrency, Keychain, Shamir Secret Sharing, WalletConnect, HDWallet, ReactorKit, TDD (XCTest)
+            - Swift, Web3, RxSwift, Swift Concurrency, Keychain, Shamir Secret Sharing, WalletConnect, HDWallet, ReactorKit, TDD (XCTest)
 
       - title: Helpring (iOS)
         sub_title: 실시간 라이브 취미·라이프 클래스 플랫폼
@@ -186,7 +186,7 @@ content:
 
           **사용 기술** 
           
-            Swift, Zoom SDK, WebRTC, Socket.IO, StoreKit, 이니시스 PG
+            - Swift, Zoom SDK, WebRTC, Socket.IO, StoreKit, 이니시스 PG
             
       - title: nBlocks Hunt
         sub_title: 위치 기반 AR Web3 게임 플랫폼 (iOS / Unity SDK)
@@ -230,7 +230,7 @@ content:
 
           **사용 기술** 
             
-            Swift, Unity(iOS), Unity Plugin
+            - Swift, Unity(iOS), Unity Plugin
             
       - title: nBlocks (iOS)
         sub_title: Non-Custodial 멀티체인 Web3 지갑 플랫폼
@@ -281,7 +281,7 @@ content:
 
           **사용 기술** 
           
-            Swift, Web3, Keychain, Shamir Secret Sharing, HDWallet, TDD (XCTest)
+            - Swift, Web3, Keychain, Shamir Secret Sharing, HDWallet, TDD (XCTest)
 
       - title: 부동산GO
         sub_title: AR 기반 주변 부동산 정보 서비스
@@ -323,7 +323,7 @@ content:
 
           **사용 기술** 
             
-            Unity, C#, iOS / Android Native, ARKit, Gyroscope, GPS, Custom WebView
+            - Unity, C#, iOS / Android Native, ARKit, Gyroscope, GPS, Custom WebView
 
       - title: 영업지원114 (iOS)
         sub_title: 중개채널 영업사원 전용 부동산 영업지원 서비스
@@ -375,7 +375,7 @@ content:
 
           **사용 기술** 
             
-            Swift, RxSwift, MVVM, Google Maps SDK, TDD (XCTest)
+            - Swift, RxSwift, MVVM, Google Maps SDK, TDD (XCTest)
 
       - title: 중개지원114 (iOS)
         sub_title: 공인중개사 전용 업무 지원 서비스
@@ -409,7 +409,7 @@ content:
 
           **사용 기술** 
             
-            Swift, MVVM, JavaScript–Native Bridge
+            - Swift, MVVM, JavaScript–Native Bridge
 
       - title: 부동산114 (iOS)
         sub_title: Big Data 기반 부동산 정보 검색 플랫폼
@@ -437,7 +437,7 @@ content:
 
           **사용 기술** 
           
-            Swift, MVVM, JavaScript–Native Bridge, Firebase Cloud Messaging
+            - Swift, MVVM, JavaScript–Native Bridge, Firebase Cloud Messaging
 
       - title: 방콜 (iOS)
         sub_title: 위치 기반 임대 매물 검색 서비스
@@ -471,7 +471,7 @@ content:
 
           **사용 기술** 
             
-            Objective-C, Swift, Google Maps SDK, Marker Cluster, DeepLink
+            - Objective-C, Swift, Google Maps SDK, Marker Cluster, DeepLink
 
       - title: KMPlayer (iOS)
         sub_title: 글로벌 멀티미디어 플레이어 서비스
@@ -513,7 +513,7 @@ content:
 
           **사용 기술** 
             
-            Objective-C, VLC, FFmpeg, AVPlayer, Dropbox SDK, Google Drive SDK
+            - Objective-C, VLC, FFmpeg, AVPlayer, Dropbox SDK, Google Drive SDK
 
       - title: 1minute (iOS)
         sub_title: 숏폼 영상 제작 무비 메이커 플랫폼
@@ -555,7 +555,7 @@ content:
 
           **사용 기술** 
             
-            Objective-C, AVFoundation
+            - Objective-C, AVFoundation
 
       - title: JellyPod (iOS)
         sub_title: 팟캐스트 브라우징 및 관리 플랫폼
@@ -583,7 +583,7 @@ content:
 
           **사용 기술** 
             
-            Objective-C, Core Data, FileManager, FFmpeg
+            - Objective-C, Core Data, FileManager, FFmpeg
 
       - title: PandoraTV (iOS)
         sub_title: 다운로드·결제 기반 동영상 스트리밍 플랫폼
@@ -623,7 +623,7 @@ content:
 
           **사용 기술** 
             
-            Objective-C, FFmpeg, AVFoundation, In-App Purchase
+            - Objective-C, FFmpeg, AVFoundation, In-App Purchase
 
   - title: Additional Projects
     layout: text
