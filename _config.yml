@@ -142,22 +142,51 @@ content:
 
           **사용 기술:** Swift, Web3, RxSwift, Swift Concurrency, Keychain, Shamir Secret Sharing, WalletConnect, HDWallet, ReactorKit, TDD (XCTest)
 
-      - layout: left
-        title: nBlocks Wallet (iOS)
-        sub_title: Secure Multi-Chain Crypto Wallet
+      - title: nBlocks (iOS)
+        sub_title: Non-Custodial 멀티체인 Web3 지갑 플랫폼
         caption: Web3 / Blockchain Wallet
         quote: >
-          멀티체인 지원 탈중앙 암호화폐 지갑
+          무사고 지갑 서비스 운영 경험
         description: |
-          - Socail 로그인을 통한 HD Wallet 기반 지갑 생성 및 프라이빗 키 관리 로직 구현
-          - Shamir’s Secret Sharing 기반 및 iCloud를 통해 쉬운 키 백업/복구 플로우 연동
-          - Keychain을 활용한 로컬 보안 저장 구조 설계
-          - Ethereum, EOS, Klaytn 멀티체인 주소 생성 및 트랜잭션 처리
-          - Klaytn Staking 상품 서비스
-          - 악성 주소 탐지를 위한 보안 서비스(Uppsala Security) 연동
+          **주요 성과**
 
-          **Highlight:** Eoseoul, 무사고 지갑 서비스 운영  
-          **Keywords:** Swift · HDWallet · Shamir · Web3 · SDK · InAppPurchase · iCloud
+          - Non-Custodial 지갑 iOS 구현 주도
+      
+            · Social Login 기반 HD Wallet 생성 및 프라이빗 키 관리 로직 구현  
+            
+            · Keychain 기반 로컬 보안 저장 아키텍처 설계  
+            
+            · 중앙 서버에 키를 저장하지 않는 구조로 사용자 자산 보안 리스크 최소화
+
+          - 키 백업·복구 구조 고도화
+      
+            · Shamir’s Secret Sharing 기반 키 분산 백업 로직 연동
+            
+            · iCloud 기반 쉬운 키 백업·복구 플로우 구현  
+            
+            · 기기 변경·앱 삭제 상황에서도 안정적인 지갑 복구 경험 제공
+
+          - 멀티 체인 지갑 구조 구현
+      
+            · Ethereum, EOS, Klaytn 멀티체인 주소 생성 및 트랜잭션 처리  
+            
+            · 체인별 서명·수수료·트랜잭션 구조를 추상화한 공통 처리 구조 설계  
+            
+            · 신규 체인 확장 시 iOS 코드 변경 최소화
+
+          - DeFi 기능 연동 및 서비스 확장
+      
+            · Klaytn Staking 상품 서비스 iOS 연동  
+            
+            · 스테이킹·언스테이킹·보상 조회 전 과정 UX 및 상태 관리 구현
+
+          - 지갑 보안 강화 및 사용자 보호
+      
+            · Uppsala Security 연동으로 악성·피싱 주소 탐지  
+            · 송금 전 사용자 경고 및 사전 차단 UX 설계
+
+          **사용 기술:** Swift, Web3, Keychain, Shamir Secret Sharing, HDWallet, REST API
+
 
       - layout: left
         title: Helpring (iOS)
