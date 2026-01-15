@@ -296,6 +296,53 @@ content:
 
           **사용 기술:** Unity, C#, iOS / Android Native, ARKit, Gyroscope, GPS, Custom WebView
 
+
+      - title: 영업지원114 (iOS)
+        sub_title: 중개채널 영업사원 전용 부동산 영업지원 서비스
+        caption: Map / Reactive Architecture
+        quote: >
+          RxSwift 기반 상태 관리 표준화
+        description: |
+          **주요 업무 및 성과**
+
+          - RxSwift 기반 아키텍처 도입 및 상태 관리 표준화
+      
+            · 화면 상태, 사용자 입력, 네트워크 응답을 Reactive Stream으로 통합 관리  
+            
+            · 지도·검색 UI에서도 예측 가능한 상태 흐름 유지  
+            
+            · 유지보수성 향상 및 신규 기능 개발 리스크 감소
+
+          - 공통 네트워크 모듈 설계 및 안정성 고도화
+      
+            · API 통신을 위한 공통 네트워크 레이어 설계  
+            
+            · 요청·응답 모델 표준화 및 에러 처리 정책 정립  
+            
+            · 네트워크 장애 상황에서도 안정적인 앱 동작 확보
+
+          - Google Maps 기반 지도·마커 Cluster 구조 구현
+      
+            · 대량 중개사 위치 데이터를 위한 Marker Clustering 모듈 설계  
+            
+            · 줌 레벨 변화에 따른 마커 그룹핑 최적화로 렌더링 성능 개선
+
+          - 검색 UX 개선
+      
+            · 지역·키워드 기반 중개사무소 검색 기능 구현  
+            
+            · 입력 스트림 제어로 불필요한 네트워크 요청 최소화  
+            
+            · 검색 결과–지도 연동 UX 설계
+
+          - TDD 도입을 통한 품질 및 운영 안정성 확보
+      
+            · XCTest 기반 핵심 로직 단위 테스트 작성  
+            
+            · QA 비용 절감 및 운영 장애 발생률 감소
+
+          **사용 기술:** Swift, RxSwift, MVVM, Google Maps SDK, TDD (XCTest)
+
       - title: 중개지원114 (iOS)
         sub_title: 공인중개사 전용 업무 지원 서비스
         caption: Hybrid / Business Tool
