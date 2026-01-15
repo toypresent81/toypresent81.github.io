@@ -185,7 +185,7 @@ content:
             · Uppsala Security 연동으로 악성·피싱 주소 탐지  
             · 송금 전 사용자 경고 및 사전 차단 UX 설계
 
-          **사용 기술:** Swift, Web3, Keychain, Shamir Secret Sharing, HDWallet, REST API
+          **사용 기술:** Swift, Web3, Keychain, Shamir Secret Sharing, HDWallet, TDD (XCTest)
 
       - title: nBlocks Hunt
         sub_title: 위치 기반 AR Web3 게임 플랫폼 (iOS / Unity SDK)
@@ -223,7 +223,7 @@ content:
             
             · 체인 확장 시 UI/UX 및 비즈니스 로직 영향 최소화
 
-          **사용 기술:** Swift, Unity(iOS), ARKit, CoreLocation, EOS, Klaytn, REST API
+          **사용 기술:** Swift, Unity(iOS), Unity Plugin
 
       - title: Helpring (iOS)
         sub_title: 실시간 라이브 취미·라이프 클래스 플랫폼
@@ -260,20 +260,34 @@ content:
           **사용 기술:** Swift, Zoom SDK, WebRTC, Socket.IO, StoreKit, 이니시스 PG
 
 
-      - layout: left
-        title: 방콜 (iOS)
-        sub_title: 지역 기반 방 구하기 서비스
-        caption: 앱 사용성 No.1
+      - title: 방콜 (iOS)
+        sub_title: 위치 기반 임대 매물 검색 서비스
+        caption: Location / Map UX
         quote: >
-          부동산 앱 사용성 1위 선정
+          부동산 앱 사용성·만족도 조사 1위
         description: |
-          - 현 위치 기반 임대 매물 탐색 iOS 앱 개발
-          - Google Map 기반 마커 클러스터링 모듈 구현
-          - Push Server 개발 및 실시간 알림 기능 구현
-          - 사용자 흐름 개선을 통해 부동산 앱 사용성 1위 달성
+          **주요 업무 및 성과**
 
-          **Highlight:** 부동산 앱 사용성 1위  
-          **Keywords:** Objective-C · Google Map
+          - 위치 기반 임대 매물 iOS 서비스 설계 및 구현
+      
+            · GPS 기반 사용자 위치 인식 및 주변 매물 탐색 구조 설계  
+            
+            · 지도 중심 UX로 탐색 동선 최소화 및 접근성 개선
+
+          - Google Maps 기반 대규모 매물 지도 시각화
+      
+            · Marker Cluster 모듈 자체 개발  
+            
+            · 줌 레벨별 클러스터 분해·병합으로 렌더링 성능 최적화
+
+          - Push Notification 서버 및 알림 구조 구축
+      
+            · 매물 이벤트 기반 Push Server 설계  
+            
+            · 딥링크 연동으로 알림 → 매물 확인 UX 최적화
+
+          **사용 기술:** Objective-C, Swift, Google Maps SDK, Marker Cluster, DeepLink
+
 
       - layout: left
         title: KMPlayer (iOS)
