@@ -108,7 +108,7 @@ content:
         quote: >
           무사고 Non-Custodial 지갑 서비스 운영
         description: |
-          **주요 성과**
+          **주요 업무 및 성과**
 
           - Non-Custodial 지갑 iOS 구현 주도
           
@@ -148,7 +148,7 @@ content:
         quote: >
           무사고 지갑 서비스 운영 경험
         description: |
-          **주요 성과**
+          **주요 업무 및 성과**
 
           - Non-Custodial 지갑 iOS 구현 주도
       
@@ -187,6 +187,43 @@ content:
 
           **사용 기술:** Swift, Web3, Keychain, Shamir Secret Sharing, HDWallet, REST API
 
+      - title: nBlocks Hunt
+        sub_title: 위치 기반 AR Web3 게임 플랫폼 (iOS / Unity SDK)
+        caption: AR / Blockchain Game
+        quote: >
+          Unity–Native SDK 기반 Web3 게임 연동 경험
+        description: |
+          **주요 업무 및 성과**
+
+          - Unity 기반 위치 AR 블록체인 게임 iOS SDK 개발
+      
+            · Unity(iOS)에서 사용 가능한 위치·AR·지갑 연동 SDK 아키텍처 설계  
+            
+            · C# ↔ Swift Native 브릿지 구조 정의로 안정적인 연동 구현  
+            
+            · SDK 중심 구조로 게임 확장 및 외부 파트너 연동 용이성 확보
+
+          - 현실 공간 기반 AR 오브젝트 탐색·수집 인터랙션 구현
+      
+            · ARKit + CoreLocation 기반 AR 오브젝트 탐색·수집 로직 개발  
+            
+            · GPS 오차 및 실외 AR 안정성 이슈를 고려한 위치 판별 보정 처리  
+            
+            · AR 화면–지도–결과 화면 간 상태 관리 및 UX 흐름 설계
+
+          - nBlocks iOS 지갑 앱 연동 및 토큰 보상 처리
+      
+            · Unity 게임에서 지갑 인증·계정 연동 SDK 개발  
+            
+            · 블록 수집 결과에 따른 토큰 보상 트랜잭션 처리 구조 표준화
+
+          - 멀티체인(EOS, Klaytn) 환경 대응
+      
+            · 체인별 트랜잭션·서명·수수료 차이를 추상화한 공통 인터페이스 설계  
+            
+            · 체인 확장 시 UI/UX 및 비즈니스 로직 영향 최소화
+
+          **사용 기술:** Swift, Unity(iOS), ARKit, CoreLocation, EOS, Klaytn, REST API
 
       - layout: left
         title: Helpring (iOS)
