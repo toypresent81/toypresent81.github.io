@@ -140,7 +140,9 @@ content:
             
             · 무사고 가상자산 지갑 앱 운영을 통해 보안 신뢰도 확보
 
-          **사용 기술:** Swift, Web3, RxSwift, Swift Concurrency, Keychain, Shamir Secret Sharing, WalletConnect, HDWallet, ReactorKit, TDD (XCTest)
+          **사용 기술:** 
+          
+            Swift, Web3, RxSwift, Swift Concurrency, Keychain, Shamir Secret Sharing, WalletConnect, HDWallet, ReactorKit, TDD (XCTest)
 
       - title: nBlocks (iOS)
         sub_title: Non-Custodial 멀티체인 Web3 지갑 플랫폼
@@ -185,7 +187,9 @@ content:
             · Uppsala Security 연동으로 악성·피싱 주소 탐지  
             · 송금 전 사용자 경고 및 사전 차단 UX 설계
 
-          **사용 기술:** Swift, Web3, Keychain, Shamir Secret Sharing, HDWallet, TDD (XCTest)
+          **사용 기술:** 
+          
+            Swift, Web3, Keychain, Shamir Secret Sharing, HDWallet, TDD (XCTest)
 
       - title: nBlocks Hunt
         sub_title: 위치 기반 AR Web3 게임 플랫폼 (iOS / Unity SDK)
@@ -223,7 +227,9 @@ content:
             
             · 체인 확장 시 UI/UX 및 비즈니스 로직 영향 최소화
 
-          **사용 기술:** Swift, Unity(iOS), Unity Plugin
+          **사용 기술:** 
+            
+            Swift, Unity(iOS), Unity Plugin
 
       - title: Helpring (iOS)
         sub_title: 실시간 라이브 취미·라이프 클래스 플랫폼
@@ -257,7 +263,9 @@ content:
             
             · 결제 상태 기반 콘텐츠 접근 제어 및 예외 케이스 처리 정형화
 
-          **사용 기술:** Swift, Zoom SDK, WebRTC, Socket.IO, StoreKit, 이니시스 PG
+          **사용 기술:** 
+          
+            Swift, Zoom SDK, WebRTC, Socket.IO, StoreKit, 이니시스 PG
 
 
       - title: 부동산GO
@@ -294,8 +302,9 @@ content:
             
             · 신규 기능 개발부터 QA·안정화까지 전 과정 주도
 
-          **사용 기술:** Unity, C#, iOS / Android Native, ARKit, Gyroscope, GPS, Custom WebView
-
+          **사용 기술:** 
+            
+            Unity, C#, iOS / Android Native, ARKit, Gyroscope, GPS, Custom WebView
 
       - title: 영업지원114 (iOS)
         sub_title: 중개채널 영업사원 전용 부동산 영업지원 서비스
@@ -341,7 +350,9 @@ content:
             
             · QA 비용 절감 및 운영 장애 발생률 감소
 
-          **사용 기술:** Swift, RxSwift, MVVM, Google Maps SDK, TDD (XCTest)
+          **사용 기술:** 
+            
+            Swift, RxSwift, MVVM, Google Maps SDK, TDD (XCTest)
 
       - title: 중개지원114 (iOS)
         sub_title: 공인중개사 전용 업무 지원 서비스
@@ -369,7 +380,9 @@ content:
             
             · 팩스 전송 프로세스에 최적화된 서명 수집 구조 설계
 
-          **사용 기술:** Swift, MVVM, JavaScript–Native Bridge
+          **사용 기술:** 
+            
+            Swift, MVVM, JavaScript–Native Bridge
 
       - title: 방콜 (iOS)
         sub_title: 위치 기반 임대 매물 검색 서비스
@@ -397,7 +410,9 @@ content:
             
             · 딥링크 연동으로 알림 → 매물 확인 UX 최적화
 
-          **사용 기술:** Objective-C, Swift, Google Maps SDK, Marker Cluster, DeepLink
+          **사용 기술:** 
+            
+            Objective-C, Swift, Google Maps SDK, Marker Cluster, DeepLink
 
       - title: KMPlayer (iOS)
         sub_title: 글로벌 멀티미디어 플레이어 서비스
@@ -433,7 +448,9 @@ content:
             
             · 글로벌 미디어 플레이어로서 KMPlayer iOS 브랜드 인지도 강화
 
-          **사용 기술:** Objective-C, VLC, FFmpeg, AVPlayer, Dropbox SDK, Google Drive SDK
+          **사용 기술:** 
+            
+            Objective-C, VLC, FFmpeg, AVPlayer, Dropbox SDK, Google Drive SDK
 
       - title: 1minute (iOS)
         sub_title: 숏폼 영상 제작 무비 메이커 플랫폼
@@ -469,7 +486,9 @@ content:
             
             · 초보 사용자도 쉽게 영상 제작 가능한 UX 제공
 
-          **사용 기술:** Objective-C, AVFoundation
+          **사용 기술:** 
+            
+            Objective-C, AVFoundation
 
       - title: JellyPod (iOS)
         sub_title: 팟캐스트 브라우징 및 관리 플랫폼
@@ -491,7 +510,9 @@ content:
             
             · 다운로드 안정성 향상 및 앱 실행 속도 개선
 
-          **사용 기술:** Objective-C, Core Data, FileManager, FFmpeg
+          **사용 기술:** 
+            
+            Objective-C, Core Data, FileManager, FFmpeg
 
       - title: PandoraTV (iOS)
         sub_title: 다운로드·결제 기반 동영상 스트리밍 플랫폼
@@ -525,7 +546,9 @@ content:
             
             · 사용자 경험 향상 및 안정적인 영상 소비 환경 제공
 
-          **사용 기술:** Objective-C, FFmpeg, AVFoundation, In-App Purchase
+          **사용 기술:** 
+            
+            Objective-C, FFmpeg, AVFoundation, In-App Purchase
 
   - title: Additional Projects
     layout: text
