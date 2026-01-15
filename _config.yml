@@ -108,6 +108,10 @@ content:
         quote: >
           아시아 No.1 Kaia Staking 예치량 달성, 무사고 지갑 서비스 운영
         description: |
+          **소속**
+
+            에이치랩코리아 (구 네오위즈파트너스 / 네오플라이) (2021.01 ~ 2025.11)
+            
           **주요 업무 및 성과**
 
           - Non-Custodial 지갑 iOS 구현 주도
@@ -140,16 +144,104 @@ content:
             
             · 무사고 가상자산 지갑 앱 운영을 통해 보안 신뢰도 확보
 
-          **사용 기술:** 
+          **사용 기술** 
           
             Swift, Web3, RxSwift, Swift Concurrency, Keychain, Shamir Secret Sharing, WalletConnect, HDWallet, ReactorKit, TDD (XCTest)
 
+      - title: Helpring (iOS)
+        sub_title: 실시간 라이브 취미·라이프 클래스 플랫폼
+        caption: Live Streaming / VoIP
+        quote: >
+          App Store Featured 선정
+        description: |
+          **소속**
+
+            에이치랩코리아 (구 네오위즈파트너스 / 네오플라이) (2020.05 ~ 2020.11)
+            
+          **주요 업무 및 성과**
+
+          - 실시간 라이브 클래스 iOS 앱 개발 주도
+      
+            · Zoom SDK 기반 클래스 탐색·라이브 참여 플로우 설계 및 구현  
+            
+            · 안정적인 스트리밍 제공으로 사용자 체류 시간 및 참여율 개선
+
+          - 실시간 커뮤니케이션 안정성 고도화
+      
+            · WebRTC 기반 VoIP 기능 설계 및 구현  
+            
+            · 네트워크 품질 저하 상황에서도 통화 지속성을 보장하는 복원 전략 수립
+
+          - Socket 기반 실시간 채팅 시스템 설계
+      
+            · 네트워크 변경 및 백그라운드 전환 시 재접속·상태 복구 UX 설계  
+            
+            · 메시지 유실 최소화
+
+          - 결제 시스템 이중화 및 접근 권한 제어
+      
+            · In-App Purchase 및 이니시스 PG 연동  
+            
+            · 결제 상태 기반 콘텐츠 접근 제어 및 예외 케이스 처리 정형화
+
+          **사용 기술** 
+          
+            Swift, Zoom SDK, WebRTC, Socket.IO, StoreKit, 이니시스 PG
+            
+      - title: nBlocks Hunt
+        sub_title: 위치 기반 AR Web3 게임 플랫폼 (iOS / Unity SDK)
+        caption: AR / Blockchain Game
+        quote: >
+          Unity–Native SDK 기반 Web3 게임 연동 경험
+        description: |
+          **소속**
+
+            에이치랩코리아 (구 네오위즈파트너스 / 네오플라이) (2019.03 ~ 2019.09)
+            
+          **주요 업무 및 성과**
+
+          - Unity 기반 위치 AR 블록체인 게임 iOS SDK 개발
+      
+            · Unity(iOS)에서 사용 가능한 위치·AR·지갑 연동 SDK 아키텍처 설계  
+            
+            · C# ↔ Swift Native 브릿지 구조 정의로 안정적인 연동 구현  
+            
+            · SDK 중심 구조로 게임 확장 및 외부 파트너 연동 용이성 확보
+
+          - 현실 공간 기반 AR 오브젝트 탐색·수집 인터랙션 구현
+      
+            · ARKit + CoreLocation 기반 AR 오브젝트 탐색·수집 로직 개발  
+            
+            · GPS 오차 및 실외 AR 안정성 이슈를 고려한 위치 판별 보정 처리  
+            
+            · AR 화면–지도–결과 화면 간 상태 관리 및 UX 흐름 설계
+
+          - nBlocks iOS 지갑 앱 연동 및 토큰 보상 처리
+      
+            · Unity 게임에서 지갑 인증·계정 연동 SDK 개발  
+            
+            · 블록 수집 결과에 따른 토큰 보상 트랜잭션 처리 구조 표준화
+
+          - 멀티체인(EOS, Klaytn) 환경 대응
+      
+            · 체인별 트랜잭션·서명·수수료 차이를 추상화한 공통 인터페이스 설계  
+            
+            · 체인 확장 시 UI/UX 및 비즈니스 로직 영향 최소화
+
+          **사용 기술** 
+            
+            Swift, Unity(iOS), Unity Plugin
+            
       - title: nBlocks (iOS)
         sub_title: Non-Custodial 멀티체인 Web3 지갑 플랫폼
         caption: Web3 / Blockchain Wallet
         quote: >
           무사고 지갑 서비스 운영 경험
         description: |
+          **소속**
+
+            에이치랩코리아 (구 네오위즈파트너스 / 네오플라이) (2019.01 ~ 2019.09)
+            
           **주요 업무 및 성과**
 
           - Non-Custodial 지갑 iOS 구현 주도
@@ -187,86 +279,9 @@ content:
             · Uppsala Security 연동으로 악성·피싱 주소 탐지  
             · 송금 전 사용자 경고 및 사전 차단 UX 설계
 
-          **사용 기술:** 
+          **사용 기술** 
           
             Swift, Web3, Keychain, Shamir Secret Sharing, HDWallet, TDD (XCTest)
-
-      - title: nBlocks Hunt
-        sub_title: 위치 기반 AR Web3 게임 플랫폼 (iOS / Unity SDK)
-        caption: AR / Blockchain Game
-        quote: >
-          Unity–Native SDK 기반 Web3 게임 연동 경험
-        description: |
-          **주요 업무 및 성과**
-
-          - Unity 기반 위치 AR 블록체인 게임 iOS SDK 개발
-      
-            · Unity(iOS)에서 사용 가능한 위치·AR·지갑 연동 SDK 아키텍처 설계  
-            
-            · C# ↔ Swift Native 브릿지 구조 정의로 안정적인 연동 구현  
-            
-            · SDK 중심 구조로 게임 확장 및 외부 파트너 연동 용이성 확보
-
-          - 현실 공간 기반 AR 오브젝트 탐색·수집 인터랙션 구현
-      
-            · ARKit + CoreLocation 기반 AR 오브젝트 탐색·수집 로직 개발  
-            
-            · GPS 오차 및 실외 AR 안정성 이슈를 고려한 위치 판별 보정 처리  
-            
-            · AR 화면–지도–결과 화면 간 상태 관리 및 UX 흐름 설계
-
-          - nBlocks iOS 지갑 앱 연동 및 토큰 보상 처리
-      
-            · Unity 게임에서 지갑 인증·계정 연동 SDK 개발  
-            
-            · 블록 수집 결과에 따른 토큰 보상 트랜잭션 처리 구조 표준화
-
-          - 멀티체인(EOS, Klaytn) 환경 대응
-      
-            · 체인별 트랜잭션·서명·수수료 차이를 추상화한 공통 인터페이스 설계  
-            
-            · 체인 확장 시 UI/UX 및 비즈니스 로직 영향 최소화
-
-          **사용 기술:** 
-            
-            Swift, Unity(iOS), Unity Plugin
-
-      - title: Helpring (iOS)
-        sub_title: 실시간 라이브 취미·라이프 클래스 플랫폼
-        caption: Live Streaming / VoIP
-        quote: >
-          App Store Featured 선정
-        description: |
-          **주요 업무 및 성과**
-
-          - 실시간 라이브 클래스 iOS 앱 개발 주도
-      
-            · Zoom SDK 기반 클래스 탐색·라이브 참여 플로우 설계 및 구현  
-            
-            · 안정적인 스트리밍 제공으로 사용자 체류 시간 및 참여율 개선
-
-          - 실시간 커뮤니케이션 안정성 고도화
-      
-            · WebRTC 기반 VoIP 기능 설계 및 구현  
-            
-            · 네트워크 품질 저하 상황에서도 통화 지속성을 보장하는 복원 전략 수립
-
-          - Socket 기반 실시간 채팅 시스템 설계
-      
-            · 네트워크 변경 및 백그라운드 전환 시 재접속·상태 복구 UX 설계  
-            
-            · 메시지 유실 최소화
-
-          - 결제 시스템 이중화 및 접근 권한 제어
-      
-            · In-App Purchase 및 이니시스 PG 연동  
-            
-            · 결제 상태 기반 콘텐츠 접근 제어 및 예외 케이스 처리 정형화
-
-          **사용 기술:** 
-          
-            Swift, Zoom SDK, WebRTC, Socket.IO, StoreKit, 이니시스 PG
-
 
       - title: 부동산GO
         sub_title: AR 기반 주변 부동산 정보 서비스
@@ -274,6 +289,10 @@ content:
         quote: >
           현장 정확도 향상에 기여한 AR 부동산 서비스
         description: |
+          **소속**
+
+            부동산114 (2017.10 ~ 2018.06)
+            
           **주요 업무 및 성과**
 
           - AR 기반 부동산 정보 시각화 기능 구현
@@ -302,7 +321,7 @@ content:
             
             · 신규 기능 개발부터 QA·안정화까지 전 과정 주도
 
-          **사용 기술:** 
+          **사용 기술** 
             
             Unity, C#, iOS / Android Native, ARKit, Gyroscope, GPS, Custom WebView
 
@@ -312,6 +331,10 @@ content:
         quote: >
           RxSwift 기반 상태 관리 표준화
         description: |
+          **소속**
+
+            부동산114 (2015.09 ~ 2016.01)
+            
           **주요 업무 및 성과**
 
           - RxSwift 기반 아키텍처 도입 및 상태 관리 표준화
@@ -350,7 +373,7 @@ content:
             
             · QA 비용 절감 및 운영 장애 발생률 감소
 
-          **사용 기술:** 
+          **사용 기술** 
             
             Swift, RxSwift, MVVM, Google Maps SDK, TDD (XCTest)
 
@@ -360,6 +383,10 @@ content:
         quote: >
           중개 업무 모바일 전환
         description: |
+          **소속**
+
+            부동산114 (2015.05 ~ 2015.08)
+            
           **주요 업무 및 성과**
 
           - JavaScript 통신 기반 하이브리드 페이지 이동 모듈 개발
@@ -380,9 +407,37 @@ content:
             
             · 팩스 전송 프로세스에 최적화된 서명 수집 구조 설계
 
-          **사용 기술:** 
+          **사용 기술** 
             
             Swift, MVVM, JavaScript–Native Bridge
+
+      - title: 부동산114 (iOS)
+        sub_title: Big Data 기반 부동산 정보 검색 플랫폼
+        caption: Hybrid App / Push
+        quote: >
+          Native–Web 하이브리드 구조 구축
+        description: |
+          **소속**
+
+            부동산114 (2015.01 ~ 2015.04)
+            
+          **주요 업무 및 성과**
+
+          - Native–Web 하이브리드 구조 구축
+      
+            · WKWebView 기반 JavaScript ↔ Native 통신 모듈 설계  
+            
+            · 분양·리서치 콘텐츠를 Native UX 흐름에 자연스럽게 통합
+
+          - FCM 기반 실시간 매물 알림 서비스 적용
+      
+            · 관심 조건 기반 맞춤 알림 로직 구현  
+            
+            · 푸시 → 딥링크 → 매물 상세 전환 흐름 설계
+
+          **사용 기술** 
+          
+            Swift, MVVM, JavaScript–Native Bridge, Firebase Cloud Messaging
 
       - title: 방콜 (iOS)
         sub_title: 위치 기반 임대 매물 검색 서비스
@@ -390,6 +445,10 @@ content:
         quote: >
           부동산 앱 사용성·만족도 조사 1위
         description: |
+          **소속**
+
+            부동산114 (2014.07 ~ 2014.12)
+            
           **주요 업무 및 성과**
 
           - 위치 기반 임대 매물 iOS 서비스 설계 및 구현
@@ -410,7 +469,7 @@ content:
             
             · 딥링크 연동으로 알림 → 매물 확인 UX 최적화
 
-          **사용 기술:** 
+          **사용 기술** 
             
             Objective-C, Swift, Google Maps SDK, Marker Cluster, DeepLink
 
@@ -420,6 +479,10 @@ content:
         quote: >
           App Store 무료 앱 1위 달성 (국내)
         description: |
+          **소속**
+
+            (주)판도라TV (2013.06 ~ 2014.06)
+            
           **주요 업무 및 성과**
 
           - VLC 엔진 기반 무인코딩 동영상 플레이어 iOS 구현 주도
@@ -448,7 +511,7 @@ content:
             
             · 글로벌 미디어 플레이어로서 KMPlayer iOS 브랜드 인지도 강화
 
-          **사용 기술:** 
+          **사용 기술** 
             
             Objective-C, VLC, FFmpeg, AVPlayer, Dropbox SDK, Google Drive SDK
 
@@ -458,6 +521,10 @@ content:
         quote: >
           1분 이내 영상 제작 UX 최적화
         description: |
+          **소속**
+
+            (주)판도라TV (2014.01 ~ 2014.03)
+            
           **주요 업무 및 성과**
 
           - 숏폼 영상 제작 iOS 앱 개발 총괄
@@ -486,7 +553,7 @@ content:
             
             · 초보 사용자도 쉽게 영상 제작 가능한 UX 제공
 
-          **사용 기술:** 
+          **사용 기술** 
             
             Objective-C, AVFoundation
 
@@ -496,6 +563,10 @@ content:
         quote: >
           안정적인 로컬 파일 관리 구조 구축
         description: |
+          **소속**
+
+            (주)판도라TV (2013.03 ~ 2013.10)
+            
           **주요 업무 및 성과**
 
           - 팟캐스트 미디어 파일 다운로드·관리 모듈 개발
@@ -510,7 +581,7 @@ content:
             
             · 다운로드 안정성 향상 및 앱 실행 속도 개선
 
-          **사용 기술:** 
+          **사용 기술** 
             
             Objective-C, Core Data, FileManager, FFmpeg
 
@@ -520,6 +591,10 @@ content:
         quote: >
           FFmpeg 기반 대용량 영상 처리 안정성 확보
         description: |
+          **소속**
+
+            (주)판도라TV (2012.07 ~ 2013.02)
+            
           **주요 업무 및 성과**
 
           - FFmpeg 기반 동영상 플레이어 iOS 구현 주도
@@ -546,7 +621,7 @@ content:
             
             · 사용자 경험 향상 및 안정적인 영상 소비 환경 제공
 
-          **사용 기술:** 
+          **사용 기술** 
             
             Objective-C, FFmpeg, AVFoundation, In-App Purchase
 
