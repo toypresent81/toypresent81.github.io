@@ -493,20 +493,39 @@ content:
 
           **사용 기술:** Objective-C, Core Data, FileManager, FFmpeg
 
-      - layout: left
-        title: KMPlayer (iOS)
-        sub_title: 무료 동영상 플레이어
-        caption: App Store Free No.1
+      - title: PandoraTV (iOS)
+        sub_title: 다운로드·결제 기반 동영상 스트리밍 플랫폼
+        caption: Video / Streaming / Payment
         quote: >
-          App Store 무료 앱 1위 달성
+          FFmpeg 기반 대용량 영상 처리 안정성 확보
         description: |
-          - VLC 기반 무인코딩 미디어 플레이어 iOS 앱 개발
-          - Cloud(Dropbox, Google Drive, FTP) 연동 기능 구현
-          - Chromecast 연동 및 외부 디바이스 재생 지원
-          - 대규모 사용자 트래픽 환경에서 안정성 확보
+          **주요 업무 및 성과**
 
-          **Highlight:** App Store 무료 앱 1위  
-          **Keywords:** Objective-C · VLC · FFmpeg · AVPlayer
+          - FFmpeg 기반 동영상 플레이어 iOS 구현 주도
+      
+            · 다양한 영상 포맷·코덱 지원 및 끊김 없는 재생 환경 구축  
+            
+            · 버퍼링, Seek, 자막, 스트리밍 처리 로직 고도화로 재생 안정성 향상
+
+          - 동영상 다운로드 및 로컬 파일 관리 모듈 개발
+      
+            · 대용량 영상 다운로드, 저장, 삭제 기능 설계 및 구현  
+            
+            · 파일 관리 안정성 확보로 앱 크래시 및 데이터 손실 이슈 최소화
+
+          - In-App Purchase 기반 결제 모듈 구현
+      
+            · 앱 내 유료 콘텐츠 결제 플로우 설계 및 구현  
+            
+            · 안전한 결제 처리 및 구매 상태 관리 로직 구축
+
+          - 플레이어 핵심 모듈 성능 최적화
+      
+            · 재생, 일시정지, Seek, 스트리밍, 자막 처리 모듈 개선  
+            
+            · 사용자 경험 향상 및 안정적인 영상 소비 환경 제공
+
+          **사용 기술:** Objective-C, FFmpeg, AVFoundation, In-App Purchase
 
   - title: Additional Projects
     layout: text
