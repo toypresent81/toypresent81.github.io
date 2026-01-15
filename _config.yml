@@ -260,33 +260,41 @@ content:
           **사용 기술:** Swift, Zoom SDK, WebRTC, Socket.IO, StoreKit, 이니시스 PG
 
 
-      - title: 방콜 (iOS)
-        sub_title: 위치 기반 임대 매물 검색 서비스
-        caption: Location / Map UX
+      - title: 부동산GO
+        sub_title: AR 기반 주변 부동산 정보 서비스
+        caption: AR / Location
         quote: >
-          부동산 앱 사용성·만족도 조사 1위
+          현장 정확도 향상에 기여한 AR 부동산 서비스
         description: |
           **주요 업무 및 성과**
 
-          - 위치 기반 임대 매물 iOS 서비스 설계 및 구현
+          - AR 기반 부동산 정보 시각화 기능 구현
       
-            · GPS 기반 사용자 위치 인식 및 주변 매물 탐색 구조 설계  
+            · ARKit과 Gyroscope, GPS 기반 주변 건물·토지 정보 시각화  
             
-            · 지도 중심 UX로 탐색 동선 최소화 및 접근성 개선
+            · 단말 회전·기울기에 따른 AR 마커 위치 보정 알고리즘 구현  
+            
+            · 실제 건물 방향과 AR 정보 간 오차 최소화
 
-          - Google Maps 기반 대규모 매물 지도 시각화
+          - AR 마커 캡처 및 공유 기능 개발
       
-            · Marker Cluster 모듈 자체 개발  
+            · AR 화면 내 정보 마커 캡처 기능 구현  
             
-            · 줌 레벨별 클러스터 분해·병합으로 렌더링 성능 최적화
+            · 현장 정보 공유 UX 제공으로 활용성 강화
 
-          - Push Notification 서버 및 알림 구조 구축
+          - Custom WebView 기반 검색·상세 페이지 구조 설계
       
-            · 매물 이벤트 기반 Push Server 설계  
+            · Unity 네이티브 영역과 WebView 간 데이터 통신 구조 정의  
             
-            · 딥링크 연동으로 알림 → 매물 확인 UX 최적화
+            · AR → 검색 → 상세 정보로 이어지는 사용자 흐름 최적화
 
-          **사용 기술:** Objective-C, Swift, Google Maps SDK, Marker Cluster, DeepLink
+          - iOS · Android 네이티브 연동 및 UI 전반 리딩
+      
+            · Unity 공통 로직 위에 플랫폼별 네이티브 기능 구현  
+            
+            · 신규 기능 개발부터 QA·안정화까지 전 과정 주도
+
+          **사용 기술:** Unity, C#, iOS / Android Native, ARKit, Gyroscope, GPS, Custom WebView
 
       - title: 중개지원114 (iOS)
         sub_title: 공인중개사 전용 업무 지원 서비스
@@ -316,6 +324,33 @@ content:
 
           **사용 기술:** Swift, MVVM, JavaScript–Native Bridge
 
+      - title: 방콜 (iOS)
+        sub_title: 위치 기반 임대 매물 검색 서비스
+        caption: Location / Map UX
+        quote: >
+          부동산 앱 사용성·만족도 조사 1위
+        description: |
+          **주요 업무 및 성과**
+
+          - 위치 기반 임대 매물 iOS 서비스 설계 및 구현
+      
+            · GPS 기반 사용자 위치 인식 및 주변 매물 탐색 구조 설계  
+            
+            · 지도 중심 UX로 탐색 동선 최소화 및 접근성 개선
+
+          - Google Maps 기반 대규모 매물 지도 시각화
+      
+            · Marker Cluster 모듈 자체 개발  
+            
+            · 줌 레벨별 클러스터 분해·병합으로 렌더링 성능 최적화
+
+          - Push Notification 서버 및 알림 구조 구축
+      
+            · 매물 이벤트 기반 Push Server 설계  
+            
+            · 딥링크 연동으로 알림 → 매물 확인 UX 최적화
+
+          **사용 기술:** Objective-C, Swift, Google Maps SDK, Marker Cluster, DeepLink
       - layout: left
         title: KMPlayer (iOS)
         sub_title: 무료 동영상 플레이어
