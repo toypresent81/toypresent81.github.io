@@ -103,44 +103,44 @@ content:
     content:
       - layout: left
         title: NEOPIN (iOS)
-    sub_title: CeDeFi 기반 Non-Custodial Web3 금융 플랫폼
-    caption: Web3 / Blockchain / DeFi
-    quote: >
-      무사고 Non-Custodial 지갑 서비스 운영
-    description: |
-      - CeDeFi 구조의 iOS Web3 금융 서비스 개발 및 운영
-      - 멀티체인 환경에서 안전한 자산 관리와 다양한 DeFi 기능 제공
+        sub_title: CeDeFi 기반 Non-Custodial Web3 금융 플랫폼
+        caption: Web3 / Blockchain / DeFi
+        quote: >
+          무사고 Non-Custodial 지갑 서비스 운영
+        description: |
+          - CeDeFi 구조의 iOS Web3 금융 서비스 개발 및 운영
+          - 멀티체인 환경에서 안전한 자산 관리와 다양한 DeFi 기능 제공
 
-      - Non-Custodial 지갑 iOS 구현 주도
-        · Private Key 로컬 관리 및 Keychain 기반 보안 저장 아키텍처 설계
-        · 중앙 서버 의존도를 제거하여 사용자 자산 보안 리스크 최소화 및 서비스 신뢰도 향상
+          - Non-Custodial 지갑 iOS 구현 주도
+            · Private Key 로컬 관리 및 Keychain 기반 보안 저장 아키텍처 설계
+            · 중앙 서버 의존도를 제거하여 사용자 자산 보안 리스크 최소화 및 서비스 신뢰도 향상
 
-      - 멀티 체인 · 멀티 토큰 구조 표준화
-        · 체인별 토큰, 잔액, 수수료, 거래내역을 추상화한 공통 인터페이스 설계
-        · 신규 체인 추가 시 iOS 코드 변경 최소화로 유지보수성과 개발 생산성 개선
+          - 멀티 체인 · 멀티 토큰 구조 표준화
+            · 체인별 토큰, 잔액, 수수료, 거래내역을 추상화한 공통 인터페이스 설계
+            · 신규 체인 추가 시 iOS 코드 변경 최소화로 유지보수성과 개발 생산성 개선
 
-      - 트랜잭션 안정성 개선을 통한 서비스 신뢰도 향상
-        · Sign → Send → Confirm 단계 분리 및 재시도 로직 도입
-        · 네트워크 오류, 중복 요청, 체인 지연 상황 대응으로 실거래 실패율 및 CS 이슈 유의미하게 감소
+          - 트랜잭션 안정성 개선을 통한 서비스 신뢰도 향상
+            · Sign → Send → Confirm 단계 분리 및 재시도 로직 도입
+            · 네트워크 오류, 중복 요청, 체인 지연 상황 대응으로 실거래 실패율 및 CS 이슈 유의미하게 감소
 
-      - DeFi 서비스 구조 표준화 및 성능 고도화
-        · 스테이킹, 스왑, 브릿지, 인덱스 등 DeFi 서비스 공통 인터페이스 및 재사용 모듈 설계
-        · 비동기 트랜잭션 상태 관리 최적화로 중복 요청·실패율 감소 및 성공률 향상
+          - DeFi 서비스 구조 표준화 및 성능 고도화
+            · 스테이킹, 스왑, 브릿지, 인덱스 등 DeFi 서비스 공통 인터페이스 및 재사용 모듈 설계
+            · 비동기 트랜잭션 상태 관리 최적화로 중복 요청·실패율 감소 및 성공률 향상
 
-      - 금융 서비스 수준의 보안 및 인증 플로우 구축
-        · Mnemonic, Private Key 등 민감 데이터 접근 최소화 구조 설계
-        · 무사고 가상자산 지갑 앱 운영을 통해 보안 신뢰도 확보
-    skills:
-      - Swift
-      - Web3
-      - RxSwift
-      - Swift Concurrency
-      - Keychain
-      - Shamir Secret Sharing
-      - WalletConnect
-      - HDWallet
-      - ReactorKit
-      - TDD (XCTest)
+          - 금융 서비스 수준의 보안 및 인증 플로우 구축
+            · Mnemonic, Private Key 등 민감 데이터 접근 최소화 구조 설계
+            · 무사고 가상자산 지갑 앱 운영을 통해 보안 신뢰도 확보
+        skills:
+          - Swift
+          - Web3
+          - RxSwift
+          - Swift Concurrency
+          - Keychain
+          - Shamir Secret Sharing
+          - WalletConnect
+          - HDWallet
+          - ReactorKit
+          - TDD (XCTest)
 
       - layout: left
         title: nBlocks Wallet (iOS)
