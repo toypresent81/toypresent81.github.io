@@ -130,17 +130,8 @@ content:
           - 금융 서비스 수준의 보안 및 인증 플로우 구축
             · Mnemonic, Private Key 등 민감 데이터 접근 최소화 구조 설계
             · 무사고 가상자산 지갑 앱 운영을 통해 보안 신뢰도 확보
-        skills:
-          - Swift
-          - Web3
-          - RxSwift
-          - Swift Concurrency
-          - Keychain
-          - Shamir Secret Sharing
-          - WalletConnect
-          - HDWallet
-          - ReactorKit
-          - TDD (XCTest)
+
+          **사용 기술:** Swift, Web3, RxSwift, Swift Concurrency, Keychain, Shamir Secret Sharing, WalletConnect, HDWallet, ReactorKit, TDD (XCTest)
 
       - layout: left
         title: nBlocks Wallet (iOS)
